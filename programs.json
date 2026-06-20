@@ -1675,5 +1675,85 @@
     "difficulty": 3
    }
   }
+ ],
+ "parameters": [
+  {
+   "id": "salary",
+   "label": "Atalgojums",
+   "type": "threshold_up",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Var pelnīt maz",
+   "high": "Vēlos pelnīt daudz",
+   "label_lv": "Atalgojums",
+   "low_lv": "Var pelnīt maz",
+   "high_lv": "Vēlos pelnīt daudz"
+  },
+  {
+   "id": "remote",
+   "label": "Attālinātais darbs",
+   "type": "proximity",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Klātienē",
+   "high": "Attālināti",
+   "label_lv": "Attālinātais darbs",
+   "low_lv": "Klātienē",
+   "high_lv": "Attālināti"
+  },
+  {
+   "id": "stability",
+   "label": "Nodarbinātības stabilitāte",
+   "type": "proximity",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Nav svarīga",
+   "high": "Ļoti svarīga",
+   "label_lv": "Nodarbinātības stabilitāte",
+   "low_lv": "Nav svarīga",
+   "high_lv": "Ļoti svarīga"
+  },
+  {
+   "id": "intl",
+   "label": "Starptautiskā karjera",
+   "type": "proximity",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Vietējais darbs",
+   "high": "Starptautiska karjera",
+   "label_lv": "Starptautiskā karjera",
+   "low_lv": "Vietējais darbs",
+   "high_lv": "Starptautiska karjera"
+  },
+  {
+   "id": "self_emp",
+   "label": "Pašnodarbinātība",
+   "type": "proximity",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Algots darbs",
+   "high": "Savs bizness",
+   "label_lv": "Pašnodarbinātība",
+   "low_lv": "Algots darbs",
+   "high_lv": "Savs bizness"
+  },
+  {
+   "id": "difficulty",
+   "label": "Studiju sarežģītība",
+   "type": "threshold_down",
+   "group": "condition",
+   "survey": true,
+   "radar": true,
+   "low": "Vieglākas studijas",
+   "high": "Gatavs grūtām studijām",
+   "label_lv": "Studiju sarežģītība",
+   "low_lv": "Vieglākas studijas",
+   "high_lv": "Gatavs grūtām studijām"
+  }
  ]
 }
